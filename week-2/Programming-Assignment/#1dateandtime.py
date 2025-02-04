@@ -20,7 +20,7 @@ from datetime import datetime
 # this grabs the current date and time locally
 now = datetime.now()
 
-# This displays the output in 12-hour format with AM/PM
-# This progam calls for the 24 hour time but I implemented
+# This displays the output in 24-hour format
+# This progam calls for the 24 hour time 
 print("Current date and time :")
 print(now.strftime("%Y-%m-%d %H:%M:%S\n"))
